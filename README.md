@@ -65,5 +65,5 @@ public HomeController(IService service) => this.service = service;
 ```
 
 - It is important to note that Control Class, Example HomeController, are automatically register by the containers.
-- The purpose of this code is only for study purpose
+- The purpose of this code is only for study.
 - This code is based on this article, published in 2010 by Tim Ross: [Creating a Simple IoC Container ](https://timross.wordpress.com/2010/01/21/creating-a-simple-ioc-container/) 
