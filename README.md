@@ -54,6 +54,16 @@ Startup.Configure(container);
 ControllerBuilder.Current.SetControllerFactory(new ControllerFactory(container));
 ```
 
+In the last step, now you can use your service into Controller
+
+```C#
+//code omitted for simplicity
+private IService service;
+
+public HomeController(IService service) => this.service = service;
+
+```
+
 - It is important to note that Control Class, Example HomeController, are automatically register by the containers.
 - The purpose of this code is only for study purpose
 - This code is based on this article, published in 2010 by Tim Ross: [Creating a Simple IoC Container ](https://timross.wordpress.com/2010/01/21/creating-a-simple-ioc-container/) 
