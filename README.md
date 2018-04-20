@@ -1,5 +1,6 @@
-# mvc5-container-di
-An example container for implementing dependency injection does not MVC5
+# A simple implementation os IoC Container for AspNet. MVC5
+
+An example of inversion of control through Dependency Injection(DI)
 
 # How to use
 
